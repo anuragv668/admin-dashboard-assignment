@@ -12,6 +12,27 @@
 
 .header {
  grid-area: 1/2/2/3;
+ padding: 1rem;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+} 
+
+.search-box {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box > img {
+  height: 25px;
+}
+
+.search-box > input {
+  height: 30px;
+  border-radius: 15px;
+  background-color: #e2e8f0;
+  border: none;
 }
 
 .sidebar {
