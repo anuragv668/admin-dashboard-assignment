@@ -35,6 +35,29 @@
   border: none;
 }
 
+.profile {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: end;
+} 
+
+.profile > .icon {
+  height: 25px;
+} 
+
+.profile > .profile-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profile > .profile-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+} 
+
 .sidebar {
  background-color: #1992d4;
  grid-area: 1/1/3/2;
