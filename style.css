@@ -205,4 +205,28 @@ hr {
 
 .trending {
   grid-area: 2/2/3/3;
+  display: grid;
+  grid-template-rows: 1.3rem 1fr;
+  gap: 1rem;
+}
+
+.trending-accounts {
+  padding: 1.2rem;
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  grid-template-rows: repeat(50px);
+  gap: 1rem;
+}
+
+.trend-account-pic {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.desc {
+  color: grey;
+  font-size: 0.8;
 }
